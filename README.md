@@ -1,56 +1,57 @@
 # Phillip Wong
 
-> Software developer with over 6 years experience working primarily as a .NET developer, after several years of academia. I enjoy crafting quality, maintainable software solutions that work in solving interesting problems. I am currently living and working in Vancouver, BC.
-
-_I also have a small number of personal projects on my GitHub account, which can be found at https://github.com/plmwong_
+> Software developer, professionally for over 6 years, after several years of academia. I enjoy crafting quality, thoughtful software that work towards solving interesting problems. I am currently living and working in Vancouver, BC.
 
 ## Experience
 
+_In addition to my professional experience below, I also have a small number of personal and open source projects which can be found at https://github.com/plmwong_
+
 ### PayByPhone Technologies Inc. — Senior Software Engineer
-_July 2013 — current | Vancouver, Canada_
+_July 2013 — current &nbsp; | &nbsp; Vancouver, Canada_
 
 Working within a small agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains.
 
-#### Projects
+#### Key Projects
 
 ##### PayByPhone — Global Rates Engine (GRE) — current
-_« In flux: .NET 4.5 C#, MVC Web API, Amazon Web Services, PostgreSQL »_
+_« In progress: .NET 4.5 C#, MVC Web API, Amazon Web Services, PostgreSQL »_
 
-* Brand new rates management and calculation engine to simplify and unify the separate North American and European rates models/engines and lower existing maintenance costs.
-* Taking a 'technical domain lead' role for this project, with the responsibility of breaking down the requirements and domain expert knowledge into well groomed work items for developers to work on.
+* Brand new rates management and calculation engine to simplify and unify the separate North American and European rates models/engines/services and lower existing maintenance and running costs.
+* Taking a 'technical domain lead' role for this project, with the additional responsibilities of ensuring that stories are well-defined and prepared for the team to discuss, as well as being the primary code reviewer.
 
 ##### PayByPhone — Paris Personalised-Parking
 _« .NET 4.5 C#, MVC Web API, Oracle PL/SQL »_
 
-* Delivered on new personalised-parking features to enable different parking rates depending on a user's eligibility; and a GPS-enabled Enforcement API to enable patrollers to ensure vehicles are eligible to park in their GPS determined location; both for the Paris parking market.
+* Delivered on new personalised-parking features, which enables cities to charge different parking rates depending on a customer's eligibility. Also designed and helped deliver the GPS-enabled Enforcement API to allow patrollers to query parking data based on their physical location. These were both launched first in the Paris market, and are being rolled out across other french cities.
+* To increase the repeatability and speed of our database deployments, I created 'soothsayer' (https://github.com/paybyphone/soothsayer), a command-line tool for supporting Oracle database migrations using PL/SQL scripts.
 
 ##### PayByPhone — Rapid Enforcement Query Service (REQS)
-_« .NET 4.5 C#, ServiceStack, Redis, ØMQ, Oracle PL/SQL, Selenium »_
+_« .NET 4.5 C#, ServiceStack, Redis, ØMQ, Oracle PL/SQL, Event Sourcing, Selenium »_
 
-* Created REQS, a new high performance Rest API for patrollers to query against, using a event-sourcing architecture and Redis as a high performance memory store.
-* Designed and implemented the key and data structures for storing, indexing and expiring parking sessions for REQS within Redis for rapid querying.
-* Creator and maintainer of log4net.Raygun (https://github.com/plmwong/log4net-raygun), a log4net appender for sending exception data and contextual data to the raygun.io service.
+* Created REQS, a new high performance Rest API for patrollers to query, using a event-sourcing architecture and Redis as an isolated high performance memory store.
+* Designed and implemented the key and data structures for storing, indexing and expiring parking sessions within Redis, focussed on easy and fast querying.
+* Created and now maintainer of log4net.Raygun (https://github.com/plmwong/log4net-raygun), a log4net appender for sending error exception data and related info to the raygun.io service from applications.
 
 ### Intergen — Software Developer in Enterprise Applications
-_January 2009 — April 2013 | Wellington, New Zealand_
+_January 2009 — April 2013 &nbsp; | &nbsp; Wellington, New Zealand_
 
-Full gamut of the software developer cycle, including gathering user requirements, designing solutions, implementation and testing. Primarily used Microsoft technologies, working on a number of projects for a variety of different clients.
+Primarily using Microsoft technologies, worked on a number of projects for a variety of different clients. Worked in the full gamut of the software development cycle, including gathering user requirements and working with domain experts, designing technical solutions, implementation/delivery, testing and deployment.
 
-Also worked in a team lead role on a couple of smaller (3 - 5 person) projects.
+Also acted in a team lead role on a couple of smaller team (3 - 5 person) projects.
 
-#### Projects
+#### Key Projects
 
 ##### Kiwibank — InTouch Upgrade / Anti-Money Laundering Compliance
 _« .NET 4.0 C#, WCF Services, Domain Driven Design, PostSharp AOP, CQRS, WPF, Prism, MVVM, AutoMapper »_
 
-* Worked in a team of 10-12 developers to build a ground up replacement for Kiwibank’s existing customer and account management front-end desktop client.
-* Took an ownership role in the design and framework development of the domain layer and application services using a Domain Driven Design (DDD) approach.
-* Designed the framework used for validation, which used specifications and extension methods to provide validation rules that could be more readily shown to and understood when collaborating with the business analysts.
+* Worked in a team of 10-12 developers to build a ground up replacement for Kiwibank’s existing customer and account management front-end desktop client, using WPF on top of a set of WCF services.
+* Took an ownership role in the design and framework development of the domain layer and application services using a Domain Driven Design (DDD) and basic CQRS approach.
+* Designed the framework used for domain object validation, which used a specification pattern and extension methods to create a fluent-style validation language that could be more readily shown to, read and understood when collaborating and verifying with the business analysts.
 
 ##### Tertiary Education Commission — Industry Training Register
 _« .NET 3.5 C#, WCF Services, x.509 certificate security, SQL Server 2008, XSD design, soapUI web service testing »_
 
-* Helped in the design and delivery of this education sector web service, which captures learner information (e.g. enrolments, course completions) from the Industry Training sector (~40 providers, ~10,000 messages/day). This new capability for capturing accurate and up-to-date information has saved the TEC millions of dollars in funding.
+* Helped in the design and delivery of this education sector web service, which captures learner event information (e.g. enrolments, course completions) from the Industry Training sector (~40 external providers, ~10,000 messages/day). This new capability for capturing accurate and up-to-date student information has saved the TEC millions of dollars in funding.
 * Team lead on a follow-up project to resolve user issues, and provide extra functions; in consultation with Industry Training providers and the Data Warehouse team. Personally improved the performance of daily jobs by 70% using indexes and optimizing database repository code.
 * Prototyped the asynchronous messaging architecture and implemented x.509 message security through a custom WCF binding.
 * Constructed the framework for running automated end-to-end web service tests using soapUI, allowing for a full regression suite of full functional tests to run nightly.
@@ -71,7 +72,7 @@ _« .NET 3.5 C#, ASP.NET Webforms, Sharepoint 2007, WCF Services, SQL Server, SS
 ## Technical Skills
 
 * `C#` `.NET` `VB.NET` `Java` `C++`
-* `MVC` `ASP.NET` `javascript` `AngularJS` `jQuery`
+* `MVC` `ASP.NET` `javascript` `AngularJS` `jQuery` `IIS`
 * `Test Driven Development` `Unit Testing` `NUnit` `IoC` `Dependency Injection`
 * `Domain Driven Design` `CQRS` `Eventing` `Serice Oriented Architecture`
 * `Web Services` `RESTful` `SOAP` `Web API` `ServiceStack`
@@ -84,6 +85,7 @@ _« .NET 3.5 C#, ASP.NET Webforms, Sharepoint 2007, WCF Services, SQL Server, SS
 ### MSc in Computer Science (Artificial Intelligence), with Distinction
 _2006 — 2008_
 
+* Worked as a Research Assistant, performing experiments and analysis, working primarily with C++.
 * Victoria University of Wellington Masters Scholarship 2007
 * Awarded Hunter Scholar Prize for PhD Studies, 2008
 * Awarded Tertiary Education Commission Top Achiever Doctoral Scholarship, 2008.
