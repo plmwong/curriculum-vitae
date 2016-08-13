@@ -1,36 +1,44 @@
 # Phillip Wong
 
-> Software developer, professionally for over 6 years, after several years of academia. I enjoy crafting quality, thoughtful software that work towards solving interesting problems. I am currently living and working in Vancouver, BC.
+> Software developer, for over 7 years professionally, after several years of academia. I enjoy creating software that helps solve interesting problems. I am a firm believer that coding is a craft, and that well-designed and maintained code is extremely important in a healthy development ecosystem.
+
+> I currently reside and work in Vancouver, British Columbia.
 
 ## Experience
 
-_In addition to my professional experience below, I also have a small number of personal and open source projects which can be found at https://github.com/plmwong_
-
 ### PayByPhone Technologies Inc. — Senior Software Engineer
-_July 2013 — current &nbsp; | &nbsp; Vancouver, Canada_
+_July 2013 — present &nbsp; | &nbsp; Vancouver, Canada_
 
-Working within a small agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains.
+Working within a small, agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains.
 
 #### Key Projects
 
-##### PayByPhone — Global Rates Engine (GRE) — current
-_« In progress: .NET 4.5 C#, MVC Web API, Amazon Web Services, PostgreSQL »_
+##### Monitoring and Metrics
+_« .NET 4.6 C#, StatsD, Consul, Librato, PostSharp, NodeJS »_
+
+* Created _spectator_ (https://github.com/paybyphone/spectator), a Windows service for monitoring performance counter and instrumentation data and forwarding it on to StatsD for aggregation. This was deployed to all of the Windows server infrastructure and enabled monitoring of all key system metrics.
+* Owned the design and implementation of incorporating instrumentation and metrics in the new core Parking and Payment APIs. Having these metrics enabled us to profile and measure service and database calls, allowing us to identify and resolve potential performance issues before the go-live date in July 2016.
+* Established the guidelines and practices for developers to consider when adding StatsD instrumentation to their own applications.
+
+##### Global Rates Engine (GRE)
+_« .NET 4.5 C#, MVC Web API, Amazon Web Services, DynamoDB, Docker »_
 
 * Brand new rates management and calculation engine to simplify and unify the separate North American and European rates models/engines/services and lower existing maintenance and running costs.
-* Taking a 'technical domain lead' role for this project, with the additional responsibilities of ensuring that stories are well-defined and prepared for the team to discuss, as well as being the primary code reviewer.
+* Took a 'technical domain lead' role for this project, with the additional responsibilities of ensuring that stories are well-defined and prepared for the team to discuss, as well as being the primary code reviewer.
 
-##### PayByPhone — Paris Personalised-Parking
+##### Paris Personalised-Parking
 _« .NET 4.5 C#, MVC Web API, Oracle PL/SQL »_
 
-* Delivered on new personalised-parking features, which enables cities to charge different parking rates depending on a customer's eligibility. Also designed and helped deliver the GPS-enabled Enforcement API to allow patrollers to query parking data based on their physical location. These were both launched first in the Paris market, and are being rolled out across other french cities.
-* To increase the repeatability and speed of our database deployments, I created 'soothsayer' (https://github.com/paybyphone/soothsayer), a command-line tool for supporting Oracle database migrations using PL/SQL scripts.
+* Delivered on new personalised-parking features, enabling cities to charge different parking rates depending on a customer's eligibility.
+* Designed and helped deliver the GPS-enabled Enforcement API, allowing patrollers to query parking data based on their physical location. These features were both successfully launched first in the Paris market, and continue to be rolled out across other cities and markets.
+* To increase the repeatability and speed of our database deployments, I created _soothsayer_ (https://github.com/paybyphone/soothsayer), a command-line tool for managing Oracle database migrations through PL/SQL scripts. This tool currently handles all database migrations for the Rates services, and is being expanded through the other Oracle-dependent systems.
 
-##### PayByPhone — Rapid Enforcement Query Service (REQS)
+##### Rapid Enforcement Query Service (REQS)
 _« .NET 4.5 C#, ServiceStack, Redis, ØMQ, Oracle PL/SQL, Event Sourcing, Selenium »_
 
-* Created REQS, a new high performance Rest API for patrollers to query, using a event-sourcing architecture and Redis as an isolated high performance memory store.
-* Designed and implemented the key and data structures for storing, indexing and expiring parking sessions within Redis, focussed on easy and fast querying.
-* Created and now maintainer of log4net.Raygun (https://github.com/plmwong/log4net-raygun), a log4net appender for sending error exception data and related info to the raygun.io service from applications.
+* Created REQS, a new high performance Rest API for patrollers to query, using an event-sourcing architecture and utilising Redis as an isolated high performance memory store.
+* Designed and implemented the key and data structures for storing, indexing and expiring parking sessions within Redis, focussed on simple and fast querying.
+* Created and continuing to maintain _log4net.Raygun_ (https://github.com/plmwong/log4net-raygun), a custom log4net appender for sending error exception data and related info to the raygun.io service from any .NET application.
 
 ### Intergen — Software Developer in Enterprise Applications
 _January 2009 — April 2013 &nbsp; | &nbsp; Wellington, New Zealand_
@@ -69,14 +77,17 @@ _« .NET 3.5 C#, ASP.NET Webforms, Sharepoint 2007, WCF Services, SQL Server, SS
 * Lead Developer for a small team to implement business changes/enhancements to the Invest in a Plan set of web applications and web services, which are used by ~400 tertiary organizations and ~20 internal TEC staff to submit and review their investment plans, determining their level of government funding.
 * Created the administration dashboard for managing funds and plans for providers from year to year, which has been used for 3 years now without any changes or fixes being required.
 
-## Technical Skills
+## Personal Projects
+In addition to my professional experience, I also have a small number of personal and open source projects which can be found on my GitHub account: https://github.com/plmwong
 
-* `C#` `.NET` `VB.NET` `Java` `C++`
+## Technical Summary
+
+* `C#` `.NET` `NodeJS` `VB.NET` `Java` `C++`
 * `MVC` `ASP.NET` `javascript` `AngularJS` `jQuery` `IIS`
 * `Test Driven Development` `Unit Testing` `NUnit` `IoC` `Dependency Injection`
-* `Domain Driven Design` `CQRS` `Eventing` `Serice Oriented Architecture`
+* `Domain Driven Design` `CQRS` `Eventing` `Service Oriented Architecture`
 * `Web Services` `RESTful` `SOAP` `Web API` `ServiceStack`
-* `Redis` `SQL` `Oracle` `SQL Server`
+* `Redis` `SQL` `Oracle` `SQL Server` `PostgreSQL`
 * `Git` `TFS`
 * `Agile` `Scrum` `Kanban`
 
