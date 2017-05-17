@@ -11,11 +11,6 @@ _August 2016 — present &nbsp; | &nbsp; Vancouver, Canada_
 
 Part of the brand new Data Service team, which is developing the new 'Data & Insights' analytics platform to help the company and clients leverage the information that we collect.
 
-### PayByPhone Technologies Inc. — Senior Software Engineer
-_July 2013 — August 2016 &nbsp; | &nbsp; Vancouver, Canada_
-
-Working within a small, agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains.
-
 #### Key Projects
 
 ##### Data & Insights
@@ -24,6 +19,13 @@ _« .NET 4.6 C#, NodeJS, AngularJS, Keboola, Snowflake DB, Golang »_
 * Developing the new stack of services and applications for the new 'Data & Inisghts' platform. Including developing all microservices for data extraction, integration, transformation and publishing to data visualisation and reporting platforms.
 * Developing the services and web UI for the new Operational Reporting platform.
 * Created custom terraform provider (https://github.com/plmwong/terraform-provider-keboola) which allows us to manage our configuration for the Keboola Connection platform in an reliable and automated fashion, as well as keep it in source control.
+
+### PayByPhone Technologies Inc. — Senior Software Engineer
+_July 2013 — August 2016 &nbsp; | &nbsp; Vancouver, Canada_
+
+Working within a small, agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains.
+
+#### Key Projects
 
 ##### Monitoring and Metrics
 _« .NET 4.6 C#, StatsD, Consul, Librato, PostSharp, NodeJS »_
