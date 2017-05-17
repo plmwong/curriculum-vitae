@@ -1,17 +1,29 @@
 # Phillip Wong
 
-> Software developer, for over 7 years professionally, after several years of academia. I enjoy creating software that helps solve interesting problems. I am a firm believer that coding is a craft, and that well-designed and maintained code is extremely important in a healthy development ecosystem.
+> Software developer, for over 8 years professionally, after spending several years in academia. I enjoy creating software that helps solve interesting problems. I am a firm believer that coding is a craft, and that well-designed and maintained code is extremely important in a healthy software environment.
 
-> I currently reside and work in Vancouver, British Columbia.
+> I currently reside and work in Vancouver, British Columbia, Canada.
 
 ## Experience
 
+### PayByPhone Technologies Inc. — Data Engineer
+_August 2016 — present &nbsp; | &nbsp; Vancouver, Canada_
+
+Part of the brand new Data Service team, which is developing the new 'Data & Insights' analytics platform to help the company and clients leverage the information that we collect.
+
 ### PayByPhone Technologies Inc. — Senior Software Engineer
-_July 2013 — present &nbsp; | &nbsp; Vancouver, Canada_
+_July 2013 — August 2016 &nbsp; | &nbsp; Vancouver, Canada_
 
 Working within a small, agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains.
 
 #### Key Projects
+
+##### Data & Insights
+_« .NET 4.6 C#, NodeJS, AngularJS, Keboola, Snowflake DB, Golang »_
+
+* Developing the new stack of services and applications for the new 'Data & Inisghts' platform. Including developing all microservices for data extraction, integration, transformation and publishing to data visualisation and reporting platforms.
+* Developing the services and web UI for the new Operational Reporting platform.
+* Created custom terraform provider (https://github.com/plmwong/terraform-provider-keboola) which allows us to manage our configuration for the Keboola Connection platform in an reliable and automated fashion, as well as keep it in source control.
 
 ##### Monitoring and Metrics
 _« .NET 4.6 C#, StatsD, Consul, Librato, PostSharp, NodeJS »_
@@ -82,12 +94,12 @@ In addition to my professional experience, I also have a small number of persona
 
 ## Technical Summary
 
-* `C#` `.NET` `NodeJS` `VB.NET` `Java` `C++`
+* `C#` `.NET` `NodeJS` `Javascript` `Golang` `VB.NET` `Java` `C++`
 * `MVC` `ASP.NET` `javascript` `AngularJS` `jQuery` `IIS`
 * `Test Driven Development` `Unit Testing` `NUnit` `IoC` `Dependency Injection`
 * `Domain Driven Design` `CQRS` `Eventing` `Service Oriented Architecture`
 * `Web Services` `RESTful` `SOAP` `Web API` `ServiceStack`
-* `Redis` `SQL` `Oracle` `SQL Server` `PostgreSQL`
+* `Redis` `SQL` `Oracle` `SQL Server` `PostgreSQL` `Snowflake`
 * `Git` `TFS`
 * `Agile` `Scrum` `Kanban`
 
