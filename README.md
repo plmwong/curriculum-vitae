@@ -1,24 +1,26 @@
 # Phillip Wong
 
-> Software developer, for over 8 years professionally, after spending several years in academia. I enjoy creating software that helps solve interesting problems. I am a firm believer that coding is a craft, and that well-designed and maintained code is extremely important in a healthy software environment.
+> Full-stack engineer, currently working at PayByPhone on their Data Platform initiatives. I enjoy solving interesting problems and am a firm believer that creating software is a discipline and a craft; that well-thought and maintained code is extremely important in a healthy software environment for delivering sustained business value.
 
-> I currently reside and work in Vancouver, British Columbia, Canada.
+> I currently live and work in Vancouver, British Columbia, Canada.
 
 ## Experience
 
 ### PayByPhone Technologies Inc. — Data Engineer
 _August 2016 — present &nbsp; | &nbsp; Vancouver, Canada_
 
-Part of the brand new Data Service team, which is developing the new 'Data & Insights' analytics platform to help the company and clients leverage the information that we collect.
+Core, founding member of the Data Services team, working on the 'Data & Insights' analytics platform to help people both within the company and in client organisations to leverage the parking and transaction information that we generate in our day-to-day business.
 
 #### Key Projects
 
-##### Data & Insights
-_« .NET 4.6 C#, NodeJS, AngularJS, Keboola, Snowflake DB, Golang »_
+##### Data & Insights (ongoing)
+_« .NET 4.6 C#, dotnetcore2, Python, NodeJS, AngularJS, Golang, Amazon Web Services, Keboola, Snowflake DB, Jupyter Notebooks »_
 
-* Developing the new stack of services and applications for the new 'Data & Inisghts' platform. Including developing all microservices for data extraction, integration, transformation and publishing to data visualisation and reporting platforms.
-* Developing the services and web UI for the new Operational Reporting platform.
-* Created custom terraform provider (https://github.com/plmwong/terraform-provider-keboola) which allows us to manage our configuration for the Keboola Connection platform in an reliable and automated fashion, as well as keep it in source control.
+* Developing the new suite of services and applications for the new 'Data & Insights' platform.
+  * Creation of all the services for data extraction, integration, transformation and publishing to data visualisation and reporting platforms.
+  * Developing the web APIs and web UIs for the new Operational Reporting feature.
+  * Developing the services and integrations for the Scheduled Reporting feature.
+* Created a custom terraform provider (https://github.com/plmwong/terraform-provider-keboola) to allow configuration management for the Keboola Connection platform in an reliable, automated and repeatable fashion, as well as keep it in source control. Keboola themselves featured this provider in a blog post: https://500.keboola.com/terraform-and-keboola-connection-a-paybyphone-integration-story-b5f48dda9f3c
 
 ### PayByPhone Technologies Inc. — Senior Software Engineer
 _July 2013 — August 2016 &nbsp; | &nbsp; Vancouver, Canada_
@@ -96,12 +98,12 @@ In addition to my professional experience, I also have a small number of persona
 
 ## Technical Summary
 
-* `C#` `.NET` `NodeJS` `Javascript` `Golang` `VB.NET` `Java` `C++`
+* `C#` `.NET` `Python` `NodeJS` `Javascript` `Golang` `VB.NET` `Java` `C++`
 * `MVC` `ASP.NET` `javascript` `AngularJS` `jQuery` `IIS`
 * `Test Driven Development` `Unit Testing` `NUnit` `IoC` `Dependency Injection`
-* `Domain Driven Design` `CQRS` `Eventing` `Service Oriented Architecture`
+* `Domain Driven Design` `CQRS` `Eventing` `Service Oriented Architecture` `Microservices`
 * `Web Services` `RESTful` `SOAP` `Web API` `ServiceStack`
-* `Redis` `SQL` `Oracle` `SQL Server` `PostgreSQL` `Snowflake`
+* `Redis` `SQL` `Oracle` `SQL Server` `PostgreSQL` `Snowflake` `Jupyter`
 * `Git` `TFS`
 * `Agile` `Scrum` `Kanban`
 
